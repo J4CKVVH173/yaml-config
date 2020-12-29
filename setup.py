@@ -13,7 +13,7 @@ setuptools.setup(
     description="Package for reading configs from yml files",
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url="https://github.com/J4CKVVH173/yaml-config-reader",
+    url="https://github.com/J4CKVVH173/yaml-config",
     packages=setuptools.find_packages(),
     install_requires=[
             'PyYAML==5.3.1',
