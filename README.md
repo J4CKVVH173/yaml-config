@@ -4,6 +4,8 @@ Package for working with config files in yaml format
 
 ## Using
 
+`yaml_config` - root package.
+
 ### open_config
 The function for a configuration object from a file.
 

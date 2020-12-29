@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setuptools.setup(
     name="yaml-config-reader",
-    version="0.9",
+    version="1",
     author="J4CK VVH173, Polosha",
     author_email="i78901234567890@gmail.com",
     description="Package for reading configs from yml files",
