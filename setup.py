@@ -16,7 +16,7 @@ setuptools.setup(
     url="https://github.com/J4CKVVH173/yaml-config",
     packages=setuptools.find_packages(),
     install_requires=[
-            'PyYAML==6.0.0',
+            'PyYAML==6.0.1',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
