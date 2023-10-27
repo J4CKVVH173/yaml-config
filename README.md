@@ -22,3 +22,16 @@ The function truncates the protocol at the passed url.
 The function takes a url in string format as an argument.
 
 The function returns clear domain without protocol.
+
+## Developing
+
+### Running tests
+
+`pytest`
+
+### Updating
+
+* Writing new code
+* Updating version in `setup.py`
+* Running `python -m build` for build
+* Pushing to pypi via `python -m twine upload  dist/*`
