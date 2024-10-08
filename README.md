@@ -34,4 +34,5 @@ The function returns clear domain without protocol.
 * Writing new code
 * Updating version in `setup.py`
 * Running `python -m build` for build
-* Pushing to pypi via `python -m twine upload  dist/*`
+* Setup `$HOME/.pypirc` [link](https://pypi.org/help/#apitoken).
+* Pushing to pypi via `python -m twine upload --repository yaml-config-reader dist/*`

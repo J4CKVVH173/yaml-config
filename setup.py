@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setuptools.setup(
     name="yaml-config-reader",
-    version="2.0.0",
+    version="3.0.0",
     author="J4CK VVH173, Polosha",
     author_email="i78901234567890@gmail.com",
     description="Package for reading configs from yml files",
@@ -16,7 +16,7 @@ setuptools.setup(
     url="https://github.com/J4CKVVH173/yaml-config",
     packages=setuptools.find_packages(),
     install_requires=[
-            'PyYAML==6.0.1',
+            'PyYAML==6.0.2',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -24,5 +24,5 @@ setuptools.setup(
         "Operating System :: Unix",
         "Operating System :: Microsoft :: Windows",
     ],
-    python_requires='>=3.8',
+    python_requires='>=3.13',
 )
